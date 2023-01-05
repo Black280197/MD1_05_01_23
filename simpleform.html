@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simpleform</title>
+</head>
+
+<style>
+    .wufoo {
+        font-family: "Lucida Console", "Lucida Sans Unicode", .VnArabiaH, sans-serif;
+    }
+</style>
+<body>
+
+<h1>Order Form</h1>
+
+<form action="simpleform.html" class="wufoo" >
+
+    <b>What would you like to buy?</b>
+    <div>
+        <br>
+        <select name="Alpha" id="01">
+        <option value="E">A</option>
+        <br>
+        <option value="B">B</option>
+        <br>
+        <option value="C">C</option>
+        <br>
+    </select>
+        <br>
+    </div>
+    <br>
+    <b>How many would you like to order?</b> <br>
+    <div>
+    <label for="money1"><input type="radio" name="dolar" id="money1" value="10" > 1 - $10</label>
+    <br>
+    <label for="money2"><input type="radio" name="dolar" id="money2" value="20" checked> 2 - $20</label>
+    <br>
+    <label for="money3"><input type="radio" name="dolar" id="money3" value="30" > 1 - $30</label>
+    <br>
+    </div>
+
+    <br>
+    <b>Name <span style="color: red">*</span></b>
+    <br>
+    <div>
+        <label ><input type="text" name="Firstname" placeholder="FirstName" size="15"></label>
+        <label ><input type="text" name="LastName" placeholder="LastName" size="15"></label>
+    </div>
+    <br><br>
+    <b>Email</b>
+    <div>
+        <input type="email" name="Email" placeholder="email" value="@gmail.com" size="35">
+        <br>
+    </div>
+
+    <p>Phone Number</p>
+    <div>
+        <input type="text" name="head" size="5"/>
+        -
+        <input type="text" name="body" size="5"/>
+        -
+        <input type="text" name="foot"size="5"/>
+    </div>
+
+    <input type="submit" name="Submit" value="Submit">
+</form>
+</body>
+</html>
