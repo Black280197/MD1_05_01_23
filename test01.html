@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>pracitice FORM</title>
+</head>
+
+<body>
+<form action="http://localhost">
+    <label for="o1">
+        <input type="text" value="Mickey" id="o1"><br>
+    </label>
+    <label for="o2">
+        <input type="text" name="lastname" value="Mouse" id="o2"><br>
+    </label>
+</form>
+
+<table border="1">
+    <tr>
+        <th>một</th>
+        <th>hai</th>
+        <th>ba</th>
+    </tr>
+    <tr>
+        <td colspan="3">1</td>
+    </tr>
+    <tr>
+        <td rowspan="2">1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+<!--        <td>1</td>-->
+        <td>2</td>
+        <td>3</td>
+    </tr>
+</table>
+
+<form action="test01.html" method="get">
+    <input type="hidden" name="secret" value="admin">
+    Account: <label><input type="text" placeholder="asdf" value="admin" name="account"></label> <br>
+    Sở thch: <br/>
+    <label><input type="radio" name="hobby" value="travel" checked> Du lịch</label><br>
+    <label><input type="radio" name="hobby" value="sport" > Thể thao</label><br>
+    <label><input type="radio" name="hobby" value="cooking" checked> Nấu ăn</label><br>
+    <label><input type="reset" value="Reset"> </label>
+    <input type="submit" value="Send">
+    <input type="button" value="asdf">
+
+    <label><textarea name="truong" id="123" cols="30" rows="10"></textarea></label>
+</form>
+
+<form action="test01.html" method="post">
+    <button type="button">
+        <img src="https://i.pinimg.com/564x/72/68/8f/72688f086cc833427271a3d9f5fd9e05.jpg" alt="Ảnh Châu Tinh Trì" width="200 px">
+    </button>
+    
+</form>
+<label>
+    <select name="city" id="345" multiple aria-dropeffect="link">
+        <option value="HN">Hà Nội</option>
+        <option value="HP">Hải Phòng</option>
+        <option value="HU">Huế</option>
+        <option value="DN">Đà Nẵng</option>
+        <option value="SG">Sài Gòn</option>
+    </select>
+</label>
+
+</body>
+
+</html>
